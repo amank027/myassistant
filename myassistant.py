@@ -1,7 +1,7 @@
 import os
 import pyttsx3
 
-pyttsx3.speak("Welcom to your personal assistant")
+pyttsx3.speak("Hi there, Welcome to your personal assistant")
 
 while True:
     pyttsx3.speak("What do you want to run")
