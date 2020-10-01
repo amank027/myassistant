@@ -28,8 +28,13 @@ while True:
         pyttsx3.speak('opening command prompt for you')
         os.system('start cmd.exe')
 
+
+    elif (('run' in r) or ('start' in r)  or ('open' in r) or ('execute' in r)) and (('cp' in r) or ('control' in r) or ('control panel' in r)):
+        pyttsx3.speak('opening control panel')
+
     elif (('run' in r) or ('start' in r)  or ('open' in r) or ('execute' in r)) and (('panel' in r) or ('control' in r) or ('control panel' in r)):
         pyttsx3.speak('opening control panel for you')
+
         os.system('start control panel')      
                 
     elif (('run' in r) or ('start' in r)  or ('open' in r) or ('execute' in r)) and (('calculator' in r) or ('calc' in r)):
