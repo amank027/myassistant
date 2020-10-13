@@ -2,7 +2,6 @@
 Python code to convert OS based program into a menu driven program.
 
 Usage:
-Run myassistant.py
+Run <i>myassistant.py</i>
 
-To check available commands:
-Use help
+use <b>help</b> command To check available commands
